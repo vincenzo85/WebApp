@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
+  // qui ci vanno tutti i servizi ... che esistono.... 
   providers: [],
   bootstrap: [AppComponent]
 })

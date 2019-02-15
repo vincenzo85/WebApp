@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 // questi sono i "fogli" del nostro component
+
+
 @Component({
   // selector... sarà il tag del mi html dell'index
   
@@ -11,6 +13,14 @@ import { Component } from '@angular/core';
 
   styleUrls: ['./app.component.scss']
 })
+
+
 export class AppComponent {
-  title = 'WebApp';
+
+  // variabile di instanza che gira nel browser 
+
+  // sto modificando la variabile...
+
+  
+  title = 'ciao a tutti';
 }

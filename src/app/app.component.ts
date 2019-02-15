@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 
 @Component({
   // selector... sarà il tag del mi html dell'index
-  
+
   selector: 'app-root',
   // html che ci voglio mettere..
 
@@ -17,10 +17,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-  // variabile di instanza che gira nel browser 
+  // variabile di instanza che gira nel browser
 
   // sto modificando la variabile...
-
-  
   title = 'ciao a tutti';
 }

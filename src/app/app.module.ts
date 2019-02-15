@@ -16,6 +16,6 @@ import { UtentiListComponent } from './utenti/utenti-list/utenti-list.component'
   ],
   // qui ci vanno tutti i servizi ... che esistono....
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, UtentiListComponent]
 })
 export class AppModule { }
